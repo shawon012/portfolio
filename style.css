@@ -69,6 +69,13 @@ nav{
     align-items: center;
 
 }
+.nav-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.3);
+}
+.nav-scroll .logo h3{
+    color: var(--color-white) !important;
+}
 .nav-container .logo h3{
     font-size: 1.6rem;
     color: var(--color-primary);
@@ -126,7 +133,11 @@ header{
     display: grid;
     grid-template-columns: 40% 60%;
 }
-
+.header-left{
+    margin-top: 5rem;
+    position: relative;
+    z-index: 1;
+}
 .header-container h3{
     font-size: 2.2rem;
     font-weight: 700;
@@ -230,10 +241,131 @@ margin: 2rem 0;
 }
 .header-img img{
     position: absolute;
-    top: 4rem;
+    top: 0rem;
     bottom: 0;
-    right: 1rem;
+    right: 0rem;
     width: 28rem;
-
+    height: 100%;
+    width: 35rem;
+}
+.header-img{
+    justify-content: right;
 }
 /* End Header Section */
+
+/* Start of about section */
+
+#About{
+    padding-top: 150px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: 36% 56% ;
+    gap: 8%;
+    align-items: center;
+}
+
+.about-img-bg{
+    background: var(--color-primary);
+    width: 26rem;
+    height: 26rem;
+    position: relative;
+    border-radius: .4rem;
+}
+.about-left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.about-img{
+    position: absolute;
+    top: 0;
+    width: 26rem;
+    height: 26rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background: var(--color-dark);
+    transform: rotate(10deg);
+    border-radius: .4rem;
+    transition: var(--transition);
+}
+.about-img img{
+    object-fit: cover;
+}
+.about-left:hover .about-img{
+    transform: rotate(0deg);
+}
+.about-container h2{
+    color: var(--color-primary);
+    font-size: 3.5rem;
+
+}
+.about-container h3{
+    margin: .5rem 0;
+    font-size: 1.2rem;
+}
+.about-container p{
+    margin-bottom: .5rem;
+    font-size: 17px;
+}
+.about-container .btn{
+    margin-top: 2rem;
+}
+
+
+/* End of about section */
+
+
+/* Start Services Section */
+
+#Service{
+    padding-top: 180px;
+}
+
+.container>h2{
+    color: var(--color-primary);
+    font-size: 3.5rem;
+
+}
+.services-container h2{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.services-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.services-card{
+    padding: 3rem 2rem 3rem;
+    border-radius: .4rem;
+    box-shadow: 0 .5rem .9rem rgba(0,0,0,0.3);
+    border-top: .5rem solid var(--color-dark);
+    transition: var(--transition);
+}
+.services-card:hover{
+    box-shadow: 0 .1rem .4rem rgba(0,0,0,0.3);
+    border-color: var(--color-primary);
+}
+
+.services-card i{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+
+.services-card h3{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    color: var(--color-primary);
+}
+
+.services-card p{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+/* End Services Section */
