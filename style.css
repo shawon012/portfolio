@@ -40,13 +40,13 @@ img{
     transition: var(--transition);
     cursor: pointer;
 }
-.btn :hover{
+.btn:hover{
     background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
 .container{
-    max-width: 1260px;
+    max-width: 1300px;
     width: 90%;
     margin: 0 auto;
 }
@@ -83,7 +83,7 @@ nav{
 
 .nav-link li a{
     font-size: 16px;
-    color: var(--color-primary);
+    color: var(--color-white);
     font-weight: 500;
     position: relative;
 }
@@ -94,21 +94,24 @@ nav{
     bottom: -6px;
     width: 100%;
     height: .1rem;
-    background: var(--color-primary);
+    background: var(--color-white);
 }
-.moon{
-    
-    color: var(--color-primary);
-}
+/* .moon{
+    color: var(--color-);
+} */
 .mood-icon{
     font-size: 1.4rem;
     transition: var(--transition);
+    color: var(--color-white);
 }
 .mood-icon:hover{
     transform: rotate(360deg);
 }
 .sun{
     display: none;
+}
+button{
+    background: transparent;
 }
 /* End Navbar */
 
@@ -132,9 +135,10 @@ header{
 .header-container h1{
     font-size: 4.6rem;
     font-weight: 700;
+  
 }
 .header-container p{
-    font-size: 16px;
+    font-size: 17px;
 }
 .social-link{
 display: flex;
@@ -143,12 +147,93 @@ gap: 2.4rem;
 margin: 2rem 0;
 }
 .social-link a{
-    padding: .3rem .6rem ;
+    padding: .4rem .7rem ;
     border: 2px solid var(--color-primary);
     color: var(--color-primary);
     font-size: 17px;
     cursor: pointer;
     transition: var(--transition);
     border-radius: 50%;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.social-link a:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+.professing-conten{
+    position: absolute;
+    width: 768px;
+    height: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0%;
+    pointer-events: none;
+    overflow: hidden;
+}
+.profession-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profession{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-primary);
+    transform: rotate(calc(360deg/ 4 * var(--r))) !important;
+    transform-origin: 400px;
+    left: 0;
+    gap: .6rem;
+    background: var(--color-white-bg);
+    padding: 12px;
+}
+.profession:nth-child(1) i{
+    margin-right: 40px;
+}
+.profession:nth-child(4) i{
+    margin-right: 24px;
+}
+.profession:nth-child(2) i{
+    margin-left: 30px;
+}
+.profession i{
+    font-size: 2rem;    
+}
+.profession h3{
+    font-size: 2rem;
+    line-height: 120%;
+    font-weight:500 ;
+}
+.circle{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary);
+}
+.ovrelay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid var(--color-primary);
+    border-bottom: 50vh solid var(--color-primary);
+    border-left: 384px solid transparent;
+    border-right: 384px solid var(--color-primary);
+}
+.header-img img{
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+    right: 1rem;
+    width: 28rem;
+
 }
 /* End Header Section */
