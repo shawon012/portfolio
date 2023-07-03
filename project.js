@@ -1,38 +1,20 @@
 let projectt = [
     {
-        img:'./img/p1.jpg',
+        img:'./img/screencapture-sweetdoll-2023-web-app-2023-07-03-18_46_28.png',
         title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
+        des:'A Doll Selling E-Commerce Platform',
+        link:'https://sweetdoll-2023.web.app/',
     },
     {
-        img:'./img/p2.jpg',
+        img:'./img/screencapture-the-tsc-cafe-client-web-app-2023-07-03-18_47_08.png',
         title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
+        des:'A Restaurent Management Web Platform',
+        link:'https://the-tsc-cafe-client.web.app/',
     },
     {
-        img:'./img/p3.jpg',
+        img:'./img/screencapture-singerx-2023-web-app-2023-07-03-18_45_31.png',
         title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
-    },
-    {
-        img:'./img/p4.jpg',
-        title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
-    },
-    {
-        img:'./img/p5.jpg',
-        title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
-    },
-    {
-        img:'./img/p6.jpg',
-        title:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, alias!',
-        link:'#',
+        des:'An Educational Platform',
+        link:'https://singerx-2023.web.app/',
     }
 ]

@@ -425,7 +425,7 @@ margin: 2rem 0;
     overflow: hidden;
     box-shadow: 0 0 1rem var(--box-shadow);
     height: 22rem;
-    width: max-content;
+    /* width: max-content; */
 }
 .project:hover .project-shadow{
     bottom: 0;
