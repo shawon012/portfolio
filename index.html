@@ -25,9 +25,14 @@
                 <li> <a href="#Service">Service</a></li>
                 <li> <a href="#Portfolio">Portfolio</a></li>
                 <li> <a href="#Contact">Contact</a></li>
-                <li><button class="moon mood-icon"> <i class="fa fa-moon"></i> </button></li>
-                <li><button class="sun mood-icon"> <i class="fa fa-sun"></i> </button></li>
+                <li>
+                    <button class="moon mood-icon"> <i class="fa fa-moon"></i> </button>
+                    <button class="sun mood-icon"> <i class="fa fa-sun"></i> </button>
+                </li>
+                
             </ul>
+            <button class="phone-menu open"> <i class="fa fa-bars">  </i> </button>
+            <button class="phone-menu close"> <i class="fa fa-close">  </i> </button>
 
 
         </div>
@@ -35,7 +40,7 @@
     <!-- Navbar End -->
 
     <!-- Start Header Section -->
-    <header id="Home">
+    <section id="Home">
         <div class="container header-container">
             <div class="header-left">
                 <h3>Hello I'm</h3>
@@ -93,7 +98,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <!-- End Header Section -->
 
@@ -108,16 +113,19 @@
                 </div>
             </div>
             <div class="about-right">
-                <h2>About Me</h2> 
+                <h2>About Me</h2>
                 <h3>Hi, I'm Here To Help Your Next Project!</h3> <br>
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid minus tempore vitae eius
                     quo, assumenda optio accusamus commodi. Cum, earum. Tenetur dolor architecto sint neque sequi
-                    nesciunt ex ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, voluptates.
+                    nesciunt ex ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, eaque. Lorem
+                    ipsum, dolor sit amet consectetur adipisicing elit. Optio, voluptates.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde est maiores reiciendis earum pariatur, alias, cumque mollitia, repudiandae optio eveniet vitae animi quasi ipsa? Neque nihil omnis quas distinctio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde est maiores reiciendis earum
+                    pariatur, alias, cumque mollitia, repudiandae optio eveniet vitae animi quasi ipsa? Neque nihil
+                    omnis quas distinctio?
                 </p>
-                
+
                 <a href="" class="btn"> Read More</a>
             </div>
         </div>
@@ -135,7 +143,8 @@
                     <i class="fa fa-code"></i>
                     <h3>ReactJS</h3>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in sapiente excepturi quaerat aliquid reiciendis!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in
+                        sapiente excepturi quaerat aliquid reiciendis!
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
@@ -143,7 +152,8 @@
                     <i class="fa fa-codepen"></i>
                     <h3>Javascript</h3>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in sapiente excepturi quaerat aliquid reiciendis!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in
+                        sapiente excepturi quaerat aliquid reiciendis!
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
@@ -151,7 +161,8 @@
                     <i class="fa fa-css3"></i>
                     <h3>CSS, Bootstrap, Tailwind</h3>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in sapiente excepturi quaerat aliquid reiciendis!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi libero laborum, animi esse quo in
+                        sapiente excepturi quaerat aliquid reiciendis!
                     </p>
                     <a href="" class="btn">Read More</a>
                 </div>
@@ -163,30 +174,57 @@
 
     <!-- Start Portfolio Section -->
 
-    <section id="Portfolio"> 
+    <section id="Portfolio">
         <div class="container portfolio-container">
             <h2>My Recent Projects</h2>
             <div class="projects">
                 <article class="project">
-                   
+
                 </article>
             </div>
-        </div>    
+        </div>
     </section>
 
     <!-- End Portfolio Section -->
 
+    <!-- Start Contact Section -->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <section id="Contact">
+        <div class="container contact-container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <div class="input-group">
+                    <input type="text" placeholder="Your first Name" required>
+                    <input type="text" placeholder="Your Last Address">
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <input type="number" placeholder="Your Phone Number" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- End Contact Section -->
+
+
+    <!-- Start footer Section -->
+
+    <footer>
+        <div class="container footer-container">
+            <p>
+                Copyright &copy; By Shawon All Right Reserved
+            </p>
+            <a href="#Home">
+                <i class="fa fa-arrow-up" ></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- End footer Section -->
+
     <!-- Custom JS link -->
     <script src="./script.js"></script>
     <!-- Custom JS link -->
@@ -194,6 +232,7 @@
     <!-- Project Array JS link -->
     <script src="./project.js"></script>
     <!-- Project Array JS link -->
+    
 </body>
 
 </html>
